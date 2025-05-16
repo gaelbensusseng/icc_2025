@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
+
+        //generando nuestras figuras, el orden de los datos del constructor es: lado1, lado2, lado3, base, altura
         FiguraGeometrica t1 = new Triangulo(3, 4, 5, 3, 4);
         FiguraGeometrica t2 = new Triangulo(5, 5, 5, 5, 4.33);
         FiguraGeometrica r  = new Rectangulo(5, 10);
